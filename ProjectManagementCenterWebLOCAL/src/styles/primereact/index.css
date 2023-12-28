@@ -1,0 +1,14 @@
+body {
+  font-family: var(--font-family);
+  font-weight: normal;
+  background: var(--surface-ground);
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  font-size: 14px;
+  background: var(--surface-card);
+  margin-bottom: 1rem;
+}

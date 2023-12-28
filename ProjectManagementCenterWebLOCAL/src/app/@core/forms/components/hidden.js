@@ -1,0 +1,1 @@
+export const Hidden = ({ children }) => <div style={{display: 'none'}}>{children}</div>;

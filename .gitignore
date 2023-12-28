@@ -1,0 +1,48 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+**/bin
+**/obj
+**/.vs
+
+**/csproj.user
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+**/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.user
+*.log
+.eslintcache
+**/.config/dotnet-tools.json
+**/storage1.arm.json
+**/RaoVatDB.dbmdl
+**/*.hprof
+*.jfm
+**/.watchman-cookie-m1book.lan-663-1122
+**/profile.arm.json
+
+**/appsettings.prod.json
+**/api-prod.pubxml
+
+**/raovat-prod.pubxml
+**/visainstant-prod.pubxml
+
+**/appsettings.raovat.prod.json
+**/appsettings.visainstant.prod.json

@@ -1,0 +1,1 @@
+export const NoWrapControl = props => <div className="no-wrap-control">{props.children}</div>;
